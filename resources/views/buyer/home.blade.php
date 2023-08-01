@@ -1,16 +1,18 @@
 @extends('buyer.master')
 @section('content')
+
     <div class="container mx-auto">
 
-        <div class="row mx-12">
+        <div class="row mx-12 my-10">
+            <h1 class="text-3xl">Hello Hansen</h1>
             <div class="my-5">
                 <a href="/buyer/buy-game" class="button bg-green-600 text-white px-4 py-3">
-                    + Buy More Game
+                    Search For friends
                 </a>
             </div>
             <div class="flex justify-between">
                 <h1 class="text-2xl">
-                    Game's Library
+                    Friend's Activity
                 </h1>
                 <div>
                     <h1 class="text-md">
@@ -73,7 +75,7 @@
             </div>
             <div class="flex justify-center grid grid-cols-4">
                 @foreach ($games as $game)
-                    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow my-5">
+                    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow gap-5">
                         <img class="rounded-t-lg" src="{{ asset('storage/' . $game->Game->image) }}" alt="" />
                         <div class="p-5">
                             <h1 class="text-2xl">
@@ -90,7 +92,7 @@
                                 <h2></h2>
                                 <button type="submit"
                                     class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg">
-                                    Install & Play
+                                    Thumbs down
                                 </button>
                             </div>
                         </div>
