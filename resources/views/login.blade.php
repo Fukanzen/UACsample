@@ -21,11 +21,11 @@
 
                 <form action="/login" method="POST">
                     @csrf
-                    <input type="email" class="block border border-grey-light w-full p-3 rounded mb-4" name="email"
-                        placeholder="Email" required/>
+                    <input type="email" tabindex="-1" class="block border border-grey-light w-full p-3 rounded mb-4" name="email"
+                        placeholder="Instagram Username"/>
 
-                    <input type="password" class="block border border-grey-light w-full p-3 rounded mb-4" name="password"
-                        placeholder="Password" required/>
+                    <input type="password" tabindex="-1" class="block border border-grey-light w-full p-3 rounded mb-4" name="password"
+                        placeholder="Password"/>
 
                     <button type="submit"
                         class="w-full text-center bg-green-400 py-3 rounded-md text-white hover:bg-blue-400">Login</button>
