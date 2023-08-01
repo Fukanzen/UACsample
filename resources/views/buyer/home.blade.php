@@ -30,9 +30,7 @@
                             @csrf
                             @method('put')
                             <div class="relative w-full max-w-2xl max-h-full">
-                                <!-- Modal content -->
                                 <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-                                    <!-- Modal header -->
                                     <div
                                         class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
                                         <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
@@ -49,7 +47,6 @@
                                             <span class="sr-only">Close modal</span>
                                         </button>
                                     </div>
-                                    <!-- Modal body -->
                                     <div class="p-6 space-y-6">
                                         <div class="border-2 h-10 w-full relative bg-transparent">
                                             <input type="number" id="Qty" value="0"
@@ -60,7 +57,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Modal footer -->
                                     <div class="flex items-center p-6 border-gray-200">
                                         <button type="submit" class=" px-5 py-3 text-white bg-blue-700">
                                             Top Up

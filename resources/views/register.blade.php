@@ -32,7 +32,7 @@
                     <input type="text" class="block border border-grey-light w-full p-3 rounded mb-4" name="hobbies" pattern="([a-zA-Z0-9\s]+,){2}[a-zA-Z0-9\s]+" title="Please enter at least three hobbies separated by commas.">
 
                     <label for="instagram">Instagram Username:</label>
-                    <input type="text" class="block border border-grey-light w-full p-3 rounded mb-4" name="instagram" pattern="^http:\/\/www\.instagram\.com\/[A-Za-z0-9_]+" placeholder="http://www.instagram.com/">
+                    <input type="text" class="block border border-grey-light w-full p-3 rounded mb-4" name="instagram" pattern="https:\/\/www\.instagram\.com\/[A-Za-z0-9_]+" placeholder="http://www.instagram.com/...">
 
                     <label for="password">Password:</label>
                     <input type="password" class="block border border-grey-light w-full p-3 rounded mb-4" name="password"

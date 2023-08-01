@@ -21,7 +21,7 @@
 
                 <form action="/login" method="POST">
                     @csrf
-                    <input type="email" tabindex="-1" class="block border border-grey-light w-full p-3 rounded mb-4" name="email"
+                    <input type="name" tabindex="-1" class="block border border-grey-light w-full p-3 rounded mb-4" name="email"
                         placeholder="Instagram Username"/>
 
                     <input type="password" tabindex="-1" class="block border border-grey-light w-full p-3 rounded mb-4" name="password"
